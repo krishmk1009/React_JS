@@ -1,0 +1,6 @@
+In this code , we are destructuring the arrays and object 
+for that we use data.js as a demo practice code which include arrays and object related to animals 
+and in practice.js we use arrays and nested object of cars details.
+
+Note:
+We only create index.js for understanding purpose , all others file of react project are inside local storage.
