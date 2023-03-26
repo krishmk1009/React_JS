@@ -15,13 +15,6 @@ const reducer = (state, action) => {
 function App() {
   const [state, dispatch] = useReducer(reducer, { count: 0, showText: true });
 
-
-  const handleClick = () => {
-    setCount(count + 1);
-    setText(!text);
-
-  }
-
   return (
     <div className="App">
       <p>{state.count}</p>
